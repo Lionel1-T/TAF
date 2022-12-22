@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Pseudo"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:hint="Entrez votre Nom"
+        android:id="@+id/Speudo"
+        android:background="@drawable/btn"
+        />
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Password"
+        android:id="@+id/Password"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:hint="Entrez votre mot de passe"
+        android:id="@+id/password"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn"/>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Se connecter"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Mot de passe oublié ?"
+        android:layout_gravity="right"
+        android:id="@+id/foreget"
+        android:textColor="#2196F3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="________________"
+       android:gravity="center_horizontal"
+        />
+        <Space
+        android:layout_width="10dp"
+        android:layout_height="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:text="ou"
+        />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="________________"
+        />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="29dp"
+    android:layout_gravity="center_horizontal">
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Vous n'avez pas de compte?"
+        android:textColor="@color/purple_700"
+        />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Creer un compte"
+        android:textColor="#2196F3"
+        />
+    </LinearLayout>
+</LinearLayout>
